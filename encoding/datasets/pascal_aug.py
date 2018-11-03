@@ -15,7 +15,7 @@ class VOCAugSegmentation(BaseDataset):
     ]
     NUM_CLASS = 21
     TRAIN_BASE_DIR = 'VOCaug/dataset/'
-    def __init__(self, root=os.path.expanduser('~/.encoding/data'), split='train',
+    def __init__(self, root=os.path.expanduser('/media/zilong/b368236f-2592-49f3-9dcc-0d4da674fd26/.encoding/data'), split='train',
                  mode=None, transform=None, target_transform=None, **kwargs):
         super(VOCAugSegmentation, self).__init__(root, split, mode, transform,
                                                  target_transform, **kwargs)
