@@ -20,7 +20,7 @@ from .base import BaseDataset
 class ADE20KSegmentation(BaseDataset):
     BASE_DIR = 'ADEChallengeData2016'
     NUM_CLASS = 150
-    def __init__(self, root=os.path.expanduser('~/.encoding/data'), split='train',
+    def __init__(self, root=os.path.expanduser('/media/zilong/b368236f-2592-49f3-9dcc-0d4da674fd26/.encoding/data'), split='train',
                  mode=None, transform=None, target_transform=None, **kwargs):
         super(ADE20KSegmentation, self).__init__(
             root, split, mode, transform, target_transform, **kwargs)
